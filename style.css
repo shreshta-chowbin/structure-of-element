@@ -1,0 +1,114 @@
+h1{
+    background-image: url(./images/gold\ bg.webp);
+    background-repeat: no-repeat;
+    background-size: 1550px 250px;
+    text-align: center;
+    color: white;
+    border: 5px dotted black;
+    box-shadow: 5px 5px 5px black;
+    font-size: 2.8rem;
+    font-family: Arial;
+}
+
+#indexHeading{
+    background: url(./images/gold\ bg.webp) no-repeat left;
+    background-size: 1600px 800px;
+    text-align: center;
+    margin-left: 470px;
+    margin-bottom: 40px;
+    width: 1040px;
+    color: white;
+    border: 5px groove black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+    font-size: 2.8rem;
+    font-family: Arial;
+}
+
+body{
+    background-image: url(./images/piano\ bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1600px 800px;
+    background-attachment: fixed;
+}
+
+#indexBody{
+    text-align: right;
+    background-image: url(./images/guitar\ bg.webp);
+    background-repeat: no-repeat;
+    background-size: 1700px 850px;
+}
+
+#indexBody img{
+    margin: 30px;
+    padding: 20px;
+    width: 320px;
+    height: 400px;
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    border: 10px double black;
+    box-shadow: 10px 10px 10px white;
+}
+
+nav{
+    background-color: lightcyan;
+    width: 74px;
+    font-size: 1.5rem;
+}
+
+audio{
+    background-color: black;
+    border-radius: 20%;
+    border: 10px double lightblue;
+    display: inline-block;
+    padding: 5px;
+    width:95%;
+    height: 40px;
+}
+
+.totDiv{
+    border: 10px double black;
+    border-radius: 20px;
+    color:black;
+    background: url(./images/gold\ bg.webp) no-repeat;
+    background-size: 1000px 500px;
+    display: inline-block;
+    width: 860px;
+    height: 230px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.audioDiv{
+    border: 10px groove black;
+    border-radius: 15px;
+    width: 300px;
+    height: 140px;
+    float: left;
+    text-align: center;
+    background-image: url(./images/music\ bg.jpg);
+    padding: 30px;
+    background-color: white;
+}
+
+.pDiv{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    border: 7px groove white;
+    border-radius: 10px;
+    width: 420px;
+    height: 200px;
+    overflow: auto;
+}
+
+.lyrics{
+    text-align: right top;
+}
